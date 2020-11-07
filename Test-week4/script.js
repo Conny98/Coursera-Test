@@ -65,11 +65,11 @@ for (indice=0; indice<names.length; indice ++) {
  var x = names[indice].toLowerCase();
 
   if (x.charAt(0)==="j") {
-       byeSpeaker.Greet();
+       byeSpeaker.speak(names[indice]);
     //   console.log("Sono dentrooo");
   } else {
  
-    helloSpeaker.Greet();
+    helloSpeaker.speak(names[indice]);
   }
 }
 
